@@ -82,3 +82,51 @@ header {
   text-align: center;
   cursor: pointer;
 }
+
+/* Main Section Styles */
+.pillar-container {
+  margin-top: 80px;
+}
+
+.pillar-container .pillar-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 32px;
+}
+
+.pillar-container .pillar-cards {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+}
+
+.pillar-container .pillar-cards .pillar-card {
+  padding: 24px 24px 24px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  margin-bottom: 84px;
+}
+
+.pillar-cards .pillar-card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.pillar-cards .pillar-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+
+.pillar-cards .pillar-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}

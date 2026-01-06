@@ -84,6 +84,8 @@ header {
 }
 
 /* Main Section Styles */
+
+/* Pillar Section Styles */
 .pillar-container {
   margin-top: 80px;
 }
@@ -129,4 +131,143 @@ header {
   font-weight: 400;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.7);
+}
+
+/* Future Vision Section Styles */
+.future-vision-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+
+.future-vision-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.future-vision-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.future-vision-cards .future-vision-card-1 {
+  padding: 32px 32px 32px 32px;
+  border: none;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+.future-vision-cards .future-vision-card-1 img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.future-vision-cards .future-vision-card-1 h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.future-vision-cards .future-vision-card-1 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+
+.future-vision-cards .future-vision-card-1 button {
+  padding: 20px 20px;
+  background-color: #5490f5;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.future-vision-cards .future-vision-card-2 {
+  padding: 32px 32px 32px 32px;
+  border: none;
+  border-radius: 16px;
+  background: rgba(198, 228, 214, 1);
+}
+.future-vision-cards .future-vision-card-2 img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.future-vision-cards .future-vision-card-2 h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.future-vision-cards .future-vision-card-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+
+.future-vision-cards .future-vision-card-2 button {
+  padding: 20px 20px;
+  background-color: #09a15c;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+.future-vision-cards .future-vision-card-3 {
+  padding: 32px 32px 32px 32px;
+  border: none;
+  border-radius: 16px;
+  background: rgba(247, 235, 207, 1);
+}
+.future-vision-cards .future-vision-card-3 img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.future-vision-cards .future-vision-card-3 h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.future-vision-cards .future-vision-card-3 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+
+.future-vision-cards .future-vision-card-3 button {
+  padding: 20px 20px;
+  background-color: #ffc239;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
 }

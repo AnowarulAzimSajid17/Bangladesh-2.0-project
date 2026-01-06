@@ -404,3 +404,75 @@ header {
   cursor: pointer;
   margin-bottom: 80px;
 }
+
+.newletter-section {
+  padding: 80px 80px;
+  border: none;
+  border-radius: 16px;
+  background-color: rgba(198, 228, 214, 1);
+  margin-bottom: 80px;
+}
+
+.newletter-content {
+  width: 1000px;
+  text-align: center;
+}
+
+.newletter-heading {
+  text-align: center;
+}
+
+.newletter-heading h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  color: rgba(14, 14, 14, 1);
+  margin-bottom: 24px;
+}
+
+.newletter-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.newletter-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.newletter-input input {
+  width: 100%;
+  padding: 16px 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 16px;
+}
+
+.newletter-input button {
+  padding: 17px 34px 17px 34px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.newletter-content p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
